@@ -71,7 +71,7 @@ gsap.from(project1Image, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project1Image,
-    start: "top 90%",
+    start: "top 100%",
     scrub: true,
   },
 });
@@ -83,7 +83,7 @@ gsap.from(project1About, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project1About,
-    start: "top 95%",
+    start: "top 100%",
     scrub: true,
   },
 });
@@ -94,7 +94,7 @@ gsap.from(project2Image, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project2Image,
-    start: "top 90%",
+    start: "top 100%",
     scrub: true,
   },
 });
@@ -106,7 +106,7 @@ gsap.from(project2About, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project2About,
-    start: "top 90%",
+    start: "top 100%",
     scrub: true,
   },
 });
@@ -117,7 +117,7 @@ gsap.from(project3Image, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project3Image,
-    start: "top 90%",
+    start: "top 100%",
     scrub: true,
   },
 });
@@ -129,7 +129,7 @@ gsap.from(project3About, {
   ease: "power2.out",
   scrollTrigger: {
     trigger: project3About,
-    start: "top 90%",
+    start: "top 100%",
     scrub: true,
   },
 });
