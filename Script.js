@@ -4,30 +4,6 @@ setTimeout(function() {
   }
 }, 5000); // 15000 milliseconds = 15 seconds
 
-// Get the initial viewport width and height
-var initialWidth = window.visualViewport.width;
-var initialHeight = window.visualViewport.height;
-
-// Add an event listener to detect changes in the viewport size
-window.visualViewport.addEventListener('resize', function() {
-  // Get the new viewport width and height
-  var newWidth = window.visualViewport.width;
-  var newHeight = window.visualViewport.height;
-
-  // Calculate the difference between the initial and new viewport dimensions
-  var widthDiff = Math.abs(newWidth - initialWidth);
-  var heightDiff = Math.abs(newHeight - initialHeight);
-
-  // Set a threshold for the difference
-  var threshold = 50;
-
-  // If the difference exceeds the threshold, display a warning message
-  if (widthDiff > threshold || heightDiff > threshold) {
-    alert("Please note that zooming may affect the appearance of this website.");
-  }
-});
-
-
 
 gsap.registerPlugin(ScrollTrigger);
 
