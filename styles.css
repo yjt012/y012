@@ -275,25 +275,32 @@ body, html{
 
 @media screen and (max-width: 450px) {
 
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body, html {
   overflow-x: hidden;
 }
 
 .Container_1{
+  height: 100%;
   background-color: #000000;
 }
 
 .Container_1 video{
-  position: absolute;
-  z-index: 99;
+  width: 400%;
+  left: -130%;
+  position: fixed;
 }
 
 .Container_1 .yash{
     position: absolute;
     color: white;
     font-size: 3rem;
-    top: 50%;
-    left: 40%;
+    top: 40%;
+    z-index: 1;
     transform: translate(-50%, -50%);
     text-shadow: 3px 3px 20px #000000,-2px 1px 30px #ffffff;
     transition: all 0.3s ease;
@@ -302,11 +309,10 @@ body, html {
 .Container_1 .yash2{
     position: absolute;
     color: white;
-    font-size: 1rem;
-    top: 80%;
-    left: 40%;
+    font-size: 1.3rem;
+    top: 50%;
+    z-index: 1;
     text-align: center;
-    letter-spacing: 0.1em;
     white-space: nowrap;
     transform: translate(-50%, -50%);
     text-shadow: 3px 3px 20px #000000,-2px 1px 30px #ffffff;
@@ -371,5 +377,13 @@ body, html {
   letter-spacing: 0.4rem;
 }
 
+.nav{
+  z-index: 1;
+}
+
+.Container_2{
+  position: relative;
+  top: 200vh;
+}
 
 }
