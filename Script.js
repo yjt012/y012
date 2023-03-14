@@ -32,6 +32,9 @@ window.addEventListener("load", function(){
   preloader.style.display = "none";
 });
 
+
+
+if (window.innerWidth > 500) {
 // Get all the image tags and child divs
 const project1Image = document.querySelector('.project_1 img');
 const project1About = document.querySelector('.project_1_about');
@@ -128,4 +131,4 @@ gsap.to(container3Heading, {
       yoyo: true
     });
   }
-});
+});}
