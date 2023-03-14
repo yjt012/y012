@@ -5,6 +5,9 @@ setTimeout(function() {
 }, 5000); // 15000 milliseconds = 15 seconds
 
 
+
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.fromTo('.yash', { opacity: 0, scale: 0.5}, { opacity: 1, scale: 1, duration: 1, ease: "power4.out"});
@@ -31,7 +34,6 @@ window.addEventListener("load", function(){
   const preloader = document.getElementById("preloader");
   preloader.style.display = "none";
 });
-
 
 
 if (window.innerWidth > 500) {
@@ -112,7 +114,7 @@ gsap.from(project3About, {
     scrub: true,
   },
 });
-
+}
 
 const container3 = document.querySelector('.Container_3');
 const container3Heading = container3.querySelector('h1');
@@ -131,4 +133,4 @@ gsap.to(container3Heading, {
       yoyo: true
     });
   }
-});}
+});
