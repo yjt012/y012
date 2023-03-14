@@ -399,7 +399,7 @@ body, html {
 .project_1 .project_1_about{
   position: absolute;
   margin-top: 450px;
-  padding-left: 20rem;
+  margin-right: -5rem;
 }
 
 .project_2{
@@ -436,5 +436,10 @@ body, html {
   position: absolute;
   margin-top: 450px;
   padding-left: 20rem;
+}
+
+.Container_3{
+  width: 100%;
+  text-align: center;
 }
 }
