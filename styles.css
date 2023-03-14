@@ -381,7 +381,8 @@ body, html {
 
 .Container_2{
   margin-top: 220vh;
-  height: 500vh;
+  height: 450vh;
+  animation: none;
 }
 
 .project_1{
@@ -402,10 +403,12 @@ body, html {
 }
 
 .project_2{
-  position: relative;
+  height: 80vh;
+  margin-top: 500px;
 }
 
 .project_2 img{
+  margin-top: 0px;
   left: 8.5rem;
   scale: 0.8;
   transform: translate(-50%, -50%);
@@ -413,15 +416,17 @@ body, html {
 
 .project_2 .project_2_about{
   position: absolute;
-
-  padding-left: 20rem;
+  margin-top: 450px;
+  padding-left: 200%;
 }
 
 .project_3{
-  position: relative;
+  height: 80vh;
+  margin-top: 500px;
 }
 
 .project_3 img{
+  margin-top: 0px;
   left: 8.5rem;
   scale: 0.8;
   transform: translate(-50%, -50%);
@@ -429,7 +434,7 @@ body, html {
 
 .project_3 .project_3_about{
   position: absolute;
-
+  margin-top: 450px;
   padding-left: 20rem;
 }
 }
