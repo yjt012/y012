@@ -265,6 +265,29 @@ body, html{
   letter-spacing: 0.5rem;
 }
 
+#typewriter {
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #ffffff;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #ffffff; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 14.5ch; 
+  }
+}
 
 
 
