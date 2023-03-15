@@ -116,21 +116,21 @@ gsap.from(project3About, {
 });
 }
 
-const container3 = document.querySelector('.Container_3');
-const container3Heading = container3.querySelector('h1');
+// const container3 = document.querySelector('.Container_3');
+// const container3Heading = container3.querySelector('h1');
 
-gsap.to(container3Heading, {
-  duration: 2,
-  ease: 'power2.inOut',
-  stagger: 0.1,
-  onComplete: function() {
-    gsap.from(container3Heading, {
-      duration: 1,
-      y: 50,
-      opacity: 0,
-      ease: 'power2.out',
-      repeat: -1,
-      yoyo: true
-    });
-  }
-});
+// gsap.to(container3Heading, {
+//   duration: 2,
+//   ease: 'power2.inOut',
+//   stagger: 0.1,
+//   onComplete: function() {
+//     gsap.from(container3Heading, {
+//       duration: 1,
+//       y: 50,
+//       opacity: 0,
+//       ease: 'power2.out',
+//       repeat: -1,
+//       yoyo: true
+//     });
+//   }
+// });
