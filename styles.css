@@ -254,6 +254,7 @@ body, html{
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .Container_3 h1{
@@ -264,7 +265,7 @@ body, html{
   word-spacing: 2rem;
   letter-spacing: 0.5rem;
 }
-
+/* 
 #typewriter {
 	width: 21.5ch;
 	white-space: nowrap;
@@ -285,9 +286,9 @@ body, html{
     width: 0; 
   }
 	100% { 
-    width: 14.5ch; 
+    width: 55%; 
   }
-}
+} */
 
 
 
@@ -422,7 +423,7 @@ body, html {
 .project_1 .project_1_about{
   position: absolute;
   margin-top: 450px;
-  margin-right: -5rem;
+  margin-right: -7.5rem;
 }
 
 .project_2{
@@ -441,6 +442,7 @@ body, html {
   position: absolute;
   margin-top: 450px;
   padding-left: 200%;
+  margin-right: -7.5rem;
 }
 
 .project_3{
@@ -459,6 +461,7 @@ body, html {
   position: absolute;
   margin-top: 450px;
   padding-left: 20rem;
+  margin-right: -7.5rem;
 }
 
 .Container_3{
